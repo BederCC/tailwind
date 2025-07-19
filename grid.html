@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="grid grid-cols-3 gap-4 p-4 bg-gray-300">
+            <div class="w-32 h-32 bg-red-500">Elemento 1</div>
+            <div class="w-32 h-32 bg-green-500">Elemento 2</div>
+            <div class="w-32 h-32 bg-blue-500">Elemento 3</div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4 p-4 bg-gray-200">
+            <div class="w-32 h-32 bg-red-500">Elemento 1</div>
+            <div class="w-32 h-32 bg-green-500">Elemento 2</div>
+            <div class="w-32 h-32 bg-blue-500">Elemento 3</div>
+        </div>
+
+        <div class="grid grid-cols-[150px_1fr_2fr] gap-4 p-4 bg-slate-400 rounded-sm">
+            <div class="bg-red-500">Elemento 1</div>
+            <div class="bg-green-500">Elemento 2</div>
+            <div class="bg-blue-500">Elemento 3</div>
+        </div>
+    </div>
+
+    <div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 bg-gray-100">
+            <div class="relative group">
+                <img src="https://placehold.co/150" alt="Image 1" class="w-full h-auto rounded-lg shadow-md">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
+                    <p class="text-white text-lg font-bold">Descripción 1</p>
+                </div>
+            </div>
+            
+    </div>
+</body>
+</html>
